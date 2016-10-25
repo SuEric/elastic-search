@@ -1,0 +1,10 @@
+#!/Users/SuEric/Documents/GitHub/elastic_search/virtualenv/bin/python3.5
+# EASY-INSTALL-ENTRY-SCRIPT: 'pyportify==0.3.7','console_scripts','pyportify'
+__requires__ = 'pyportify==0.3.7'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('pyportify==0.3.7', 'console_scripts', 'pyportify')()
+    )
