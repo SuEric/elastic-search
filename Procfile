@@ -1,0 +1,1 @@
+web: gunicorn elasticdemo.wsgi --log-file -
