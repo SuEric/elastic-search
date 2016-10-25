@@ -4,6 +4,7 @@ certifi==2016.9.26
 chardet==2.3.0
 Django==1.10.2
 elasticsearch==5.0.0
+gunicorn==19.6.0
 multidict==2.1.2
 paho-mqtt==1.1
 pyportify==0.3.7
